@@ -1,0 +1,119 @@
+header{
+    padding: 60px 10%;
+    position: relative;
+}
+.container{
+    position: relative;
+    display: flex;
+}
+body{
+    flex-wrap: wrap;
+    font-family: sans-serif;
+    background-color: rgb(34, 31, 61);
+    color: white;
+}
+.logo{
+    color: orange;
+    font-size: 34px;
+    font-weight: bold;
+}
+h1{
+    font-size: 40px;
+    font-family: sans-serif;
+    line-height: 1.2;
+}
+.fa{
+    padding: 5px;
+    color: white;
+}
+.fa:hover{color: orange;}
+.left{
+    flex: 1;
+}
+.right{
+    flex: 1.2;
+    margin-right: 10px;
+}
+nav{
+    display: flex;
+    gap:30px;
+    justify-content: end;
+}
+
+a{
+    font-size: 20px;
+     list-style: none;
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: orange;
+   transform: scale(1.5);
+  
+}
+
+button{
+    background-color: orange;
+    border-radius: 6px;
+    padding: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+button:hover{
+    background-color: white;
+}
+img{
+    position: absolute;
+  bottom: 0px;
+  left: 200px;
+  width: 250px;
+  z-index: 1;
+}
+footer{
+    justify-content: space-between;
+    background-color: rgb(29, 27, 49);
+    padding: 60px 10%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.quote{
+   margin-left: 20px; 
+   margin-top: 20px;
+   font-family: cursive;
+}
+section{
+    padding: 60px 10%;
+    display: flex;
+}
+.skill{
+    background-color: rgb(67, 61, 112);
+    padding: 20px;
+    margin: 20px;  
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+}
+.skill:hover{
+    transform: scale(1.05);
+}
+.text{
+    text-align: center;
+}
+h4{
+    text-align: center;
+    color: orange;
+}
+.btn{
+   margin-left: 50px;
+}
+h4{
+    font-size: 30px;
+}
+.popup{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+}

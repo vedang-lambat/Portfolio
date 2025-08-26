@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vedang | Portfolio</title>
+    <link rel="stylesheet" href="p2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="left">
+                <div class="logo">
+                    V
+                </div>
+                <h1>Vedang <br><span>Lambat</span> </h1>
+                <div class="icons">
+                    <a href="https://www.instagram.com/vedanngg_/?hl=en" class="fa fa-instagram" ></a> 
+                    <a href="#" class="fa fa-linkedin"></a>
+                </div>
+            </div>
+            <div class="right">
+               <nav>
+                <a href="#">Home</a>
+                <a href="#">Services</a>
+                <a href="#">Blogs</a>
+               </nav>
+
+               <div class="Introduction">
+                <h3>- Introduction</h3>
+                <h1>Web Developer and Data Analyst, based in India.</h1>
+                <p>Hey! I'm Vedang, a curious and motivated student currently pursuing <br>
+                my diploma in computer engineering. I'm especially passionate about<br> front-end 
+                web development and enjoy building user-friendly, visually<br> appealing websites.</p>
+
+                <button>My Story</button>
+
+               </div>
+            </div>
+            <img src="image.png" alt="sample img">
+        </div>
+         <h1 style="text-align: center; margin-top: 100px;">My Skills</h1>
+        <section class="section">
+           
+            <div class="skill">
+                <h4>HTML</h4>
+                <p class="text">I have a solid understanding of HTML and can create 
+                    well-structured webpages using semantic tags, forms, 
+                    tables, and multimedia elements.</p>
+                     <br>
+                     <button class="btn">Learn More</button>
+            </div>
+            <div class="skill">
+                <h4>JavaScript</h4>
+                <p class="text"> I can write interactive and dynamic features using JavaScript,
+                     including form validation, DOM manipulation, and basic logic building.</p>
+                     <br>
+                     <button class="btn">Learn More</button>
+                     
+            </div>
+            <div class="skill">
+                <h4>CSS</h4>
+                <p class="text">I use CSS to design responsive and visually appealing layouts,
+                    with experience in Flexbox, Grid, animations, and media queries.</p>
+                     <br>
+                     <button class="btn" onclick="pop()">Learn More</button>
+                     <div class="popup" id="popdiv">helloo</div>
+            </div>
+        </section>
+
+
+        <footer>
+            <div class="contact">
+              <h3>- Contact </h3> 
+            <p>  Any type of Query <br>and Discussion
+            <br>Email: lambatvedang@gmail.com <br>
+             Github: <a href="https://github.com/vedang-lambat" style="font-size: 15px;">Github_Vedang</a>
+            </div>
+
+            <div class="quote">
+                <p>"Web development is the art of turning ideas <br>into interactive reality
+                 — one line of code at a time."</p>
+            </div>
+            
+        </footer>
+    </header>
+     <script>
+    function pop() {
+      const popup = document.getElementById("popdiv");
+      // Toggle between show and hide
+      if (popup.style.display === "block") {
+        popup.style.display = "none";
+      } else {
+        popup.style.display = "block";
+      }
+    }
+  </script>
+</body>
+</html>
